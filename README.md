@@ -13,6 +13,7 @@ Custom Android distributions introduce heavily modified kernel behaviors, aggres
 4. **Aquamorphic UI Fluidity:** Real-time frame-rate profiling (`HWUI rendering`), latency verification, and animation damping curves.
 5. **System Cloner (Dual Space Isolation):** Hard data sandboxing, notification masking, and system-level partition boundary validation.
 6. **App Lock & Hidden Apps:** Dial pad macro routing validation and notification content masking.
+7. **Sensor Validation & Hardware Responsiveness:** Verification of real-time sensory data processing (Gyroscope, Accelerometer, Proximity, and Ambient Light) across various dynamic system states, ensuring accurate UI orientation adjustments and automatic screen-dimming behaviors.
 
 ---
 
@@ -25,8 +26,10 @@ Custom Android distributions introduce heavily modified kernel behaviors, aggres
 │   │   ├── TS_Private_Safe.md
 │   │   ├── TS_Background_Management.md
 │   │   └── TS_System_Cloner.md
+│   └── Sensors/                                # Added: Matrix for Gyroscope, Proximity & Ambient Light Test Cases
+│       └── README.md
 │   └── Bug_Reports/
-│       └── ColorOS-SC-042-Clipboard-Leak.md   # Sample Critical Security Defect Report
+│       └── ColorOS-SC-042-Clipboard-Leak.md    # Sample Critical Security Defect Report
 ├── Automation_Scripts/
 │   ├── conftest.py                             # Pytest configurations & capabilities
 │   ├── locators.py                             # UI Automator 2 locators/Accessibility IDs
