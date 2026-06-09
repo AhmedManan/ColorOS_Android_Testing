@@ -1,4 +1,4 @@
-# ColorOS Functionality Test Suite 📱🔍
+# Android OS (ColorOS) Functionality & Feature Test Suite 📱🔍
 
 An enterprise-grade Software Quality Assurance (SQA) repository dedicated to structural testing, security boundary verification, and automated validation of custom Android subsystems (specifically focusing on ColorOS paradigms). This project maps comprehensive manual test cases, edge-case vulnerability assessments, and ADB-assisted runtime log analyses.
 
